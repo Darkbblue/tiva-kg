@@ -46,9 +46,7 @@ conda create -n tiva-kg python=2.7 tensorflow-gpu=1.14
 conda activate tiva-kg
 ```
 
-**NOTICE: Microsoft has changed the plan of Onedrive, making the sharing link below unavailable. We are working on a solution for now.**
-
-Prepare data by downloading from https://mailtsinghuaeducn-my.sharepoint.com/:f:/g/personal/autogl_mail_tsinghua_edu_cn/EudDw-AAwVlFnndC6swJKtQBLiFIFpWIB9kmbt_Gnh6DQw?e=bvsiDC. You will notice an experiment.tar.gz which contains experiment related files, but running the code also requires to have downloaded mmkg_data.tar.gz.
+Prepare data by downloading from https://pan.baidu.com/s/1ozkvjT8I8LEBd-J71Czc7g?pwd=jpce. (We recommend downloading via a python-based tool, bypy.) You will notice an experiment.tar.gz which contains experiment related files, but running the code also requires to have downloaded mmkg_data.tar.gz.
 Then modify parameters.py and test_parameters.py to fit where you put these files.  
 
 UPDATE: We notice the old all.txt seems to be corrupted. We have uploaded a fixed one in github release. You can also simply concatenate the content (mind the empty lines at the end of these files) of test.txt, valid.txt, and train.txt to get the fixed one.  
