@@ -1,0 +1,10 @@
+wheel
+numpy
+torch
+torchvision
+torchaudio
+resampy
+librosa
+h5py
+pillow
+imageio
